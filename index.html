@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title> + </title>
+	</head>
+	<body>
+			<input type="text" name="text" id="input">
+			<button onclick="one()"> + </button>
+		<script type="text/javascript">
+			let a = 0
+			function one() {
+				a++
+				if (a % 2 == 0) {
+					let wor = document.getElementById(`input`)
+					wor.type = `text`
+				}
+				else {
+					let row = document.getElementById(`input`)
+					row.type = `password`
+				}
+			}
+		</script>
+	</body>
+</html>
